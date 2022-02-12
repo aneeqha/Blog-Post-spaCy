@@ -3,7 +3,6 @@
 import re, os, shutil, sys
 import spacy
 from spacytextblob.spacytextblob import SpacyTextBlob
-#rom textblob import TextBlob
 
 def main():
     num = 0
@@ -42,24 +41,6 @@ def main():
             else:
                 print("Emotion: Impassive")
             num += 1
-
-            # if (Polarity > 0):
-            #     if (Polarity < 0.5):
-            #         print("Emotion: Mildly Positive")
-            #     else:
-            #         print("Emotion: Strongly Positive")
-
-            # elif (Polarity < 0):
-            #     Polarity = (-1)*Polarity
-            #     if (Polarity < 0.5):
-            #         print("Emotion: Mildly Negative")
-            #     else:
-            #         print("Emotion: Strongly Negative")
-
-            # else:
-            #     print("Emotion: Impassive")
-            # num += 1
-
 
 if __name__ == '__main__':
     main()
